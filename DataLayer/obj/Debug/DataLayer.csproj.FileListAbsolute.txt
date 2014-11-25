@@ -1,0 +1,11 @@
+E:\WORK\Library\DataLayer\bin\Debug\DataLayer.dll
+E:\WORK\Library\DataLayer\bin\Debug\DataLayer.pdb
+E:\WORK\Library\DataLayer\bin\Debug\MySql.Data.dll
+E:\WORK\Library\DataLayer\obj\Debug\DataLayer.csprojResolveAssemblyReference.cache
+E:\WORK\Library\DataLayer\obj\Debug\DataLayer.dll
+E:\WORK\Library\DataLayer\obj\Debug\DataLayer.pdb
+D:\DORUK\DORUK\WORK\Library\DataLayer\bin\Debug\DataLayer.dll
+D:\DORUK\DORUK\WORK\Library\DataLayer\bin\Debug\DataLayer.pdb
+D:\DORUK\DORUK\WORK\Library\DataLayer\obj\Debug\DataLayer.csprojResolveAssemblyReference.cache
+D:\DORUK\DORUK\WORK\Library\DataLayer\obj\Debug\DataLayer.dll
+D:\DORUK\DORUK\WORK\Library\DataLayer\obj\Debug\DataLayer.pdb
