@@ -1,0 +1,783 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ErrorLogs>
+  <ErrorLog>
+    <OccuredOn>15.12.2013 14:27:13</OccuredOn>
+    <Exception>Unterminated string literal.  Strings that start with a quotation mark (") must be terminated before the end of the line.  However, strings that start with @ and a quotation mark (@") can span multiple lines.
+</Exception>
+    <InnerException />
+  </ErrorLog>
+  <ErrorLog>
+    <OccuredOn>15.12.2013 14:27:16</OccuredOn>
+    <Exception>Unterminated string literal.  Strings that start with a quotation mark (") must be terminated before the end of the line.  However, strings that start with @ and a quotation mark (@") can span multiple lines.
+</Exception>
+    <InnerException />
+  </ErrorLog>
+  <ErrorLog>
+    <OccuredOn>15.12.2013 14:27:46</OccuredOn>
+    <Exception>e:\WORK\Library\LibraryUI\Views\Home\RequestBook.cshtml(15): error CS1026: ) expected</Exception>
+    <InnerException />
+  </ErrorLog>
+  <ErrorLog>
+    <OccuredOn>15.12.2013 14:43:33</OccuredOn>
+    <Exception>Unterminated string literal.  Strings that start with a quotation mark (") must be terminated before the end of the line.  However, strings that start with @ and a quotation mark (@") can span multiple lines.
+</Exception>
+    <InnerException />
+  </ErrorLog>
+  <ErrorLog>
+    <OccuredOn>15.12.2013 14:46:21</OccuredOn>
+    <Exception>Unterminated string literal.  Strings that start with a quotation mark (") must be terminated before the end of the line.  However, strings that start with @ and a quotation mark (@") can span multiple lines.
+</Exception>
+    <InnerException />
+  </ErrorLog>
+  <ErrorLog>
+    <OccuredOn>15.12.2013 16:41:15</OccuredOn>
+    <Exception>A public action method 'RequestBookComplete' was not found on controller 'LibraryUI.Controllers.HomeController'.</Exception>
+    <InnerException />
+  </ErrorLog>
+  <ErrorLog>
+    <OccuredOn>15.12.2013 21:03:26</OccuredOn>
+    <Exception>The model item passed into the dictionary is of type 'LibraryUI.BookViewModel', but this dictionary requires a model item of type 'LibraryUI.Models.Book'.</Exception>
+    <InnerException />
+  </ErrorLog>
+  <ErrorLog>
+    <OccuredOn>15.12.2013 22:05:07</OccuredOn>
+    <Exception>A public action method 'Home' was not found on controller 'LibraryUI.Controllers.HomeController'.</Exception>
+    <InnerException />
+  </ErrorLog>
+  <ErrorLog>
+    <OccuredOn>15.12.2013 22:05:14</OccuredOn>
+    <Exception>A public action method 'Home' was not found on controller 'LibraryUI.Controllers.HomeController'.</Exception>
+    <InnerException />
+  </ErrorLog>
+  <ErrorLog>
+    <OccuredOn>15.12.2013 22:21:21</OccuredOn>
+    <Exception>c:\Windows\Microsoft.NET\Framework\v4.0.30319\Temporary ASP.NET Files\root\14370870\c3a22944\App_Web_addbook.cshtml.a8d08dba.szzdm-za.0.cs(29): error CS0234: The type or namespace name 'Author' does not exist in the namespace 'LibraryUI.Models' (are you missing an assembly reference?)</Exception>
+    <InnerException />
+  </ErrorLog>
+  <ErrorLog>
+    <OccuredOn>15.12.2013 22:21:50</OccuredOn>
+    <Exception>c:\Windows\Microsoft.NET\Framework\v4.0.30319\Temporary ASP.NET Files\root\14370870\c3a22944\App_Web_requestbookcomplete.cshtml.a8d08dba.pie0qldi.0.cs(29): error CS0234: The type or namespace name 'BookRequest' does not exist in the namespace 'LibraryUI.Models' (are you missing an assembly reference?)</Exception>
+    <InnerException />
+  </ErrorLog>
+  <ErrorLog>
+    <OccuredOn>15.12.2013 22:23:37</OccuredOn>
+    <Exception>c:\Windows\Microsoft.NET\Framework\v4.0.30319\Temporary ASP.NET Files\root\14370870\c3a22944\App_Web_requestbookcomplete.cshtml.a8d08dba.02kqdq3b.0.cs(29): error CS0234: The type or namespace name 'BookRequest' does not exist in the namespace 'LibraryUI.Models' (are you missing an assembly reference?)</Exception>
+    <InnerException />
+  </ErrorLog>
+  <ErrorLog>
+    <OccuredOn>15.12.2013 22:23:41</OccuredOn>
+    <Exception>c:\Windows\Microsoft.NET\Framework\v4.0.30319\Temporary ASP.NET Files\root\14370870\c3a22944\App_Web_addauthor.cshtml.a8d08dba.ded2bque.0.cs(29): error CS0234: The type or namespace name 'Author' does not exist in the namespace 'LibraryUI.Models' (are you missing an assembly reference?)</Exception>
+    <InnerException />
+  </ErrorLog>
+  <ErrorLog>
+    <OccuredOn>15.12.2013 22:27:37</OccuredOn>
+    <Exception>c:\Windows\Microsoft.NET\Framework\v4.0.30319\Temporary ASP.NET Files\root\14370870\c3a22944\App_Web_requestbookcomplete.cshtml.a8d08dba.wq6a5gon.0.cs(29): error CS0234: The type or namespace name 'BookRequest' does not exist in the namespace 'LibraryUI.Models' (are you missing an assembly reference?)</Exception>
+    <InnerException />
+  </ErrorLog>
+  <ErrorLog>
+    <OccuredOn>15.12.2013 22:28:51</OccuredOn>
+    <Exception>c:\Windows\Microsoft.NET\Framework\v4.0.30319\Temporary ASP.NET Files\root\14370870\c3a22944\App_Web_requestbookcomplete.cshtml.a8d08dba.s72tmgma.0.cs(29): error CS0234: The type or namespace name 'BookRequest' does not exist in the namespace 'LibraryUI.Models' (are you missing an assembly reference?)</Exception>
+    <InnerException />
+  </ErrorLog>
+  <ErrorLog>
+    <OccuredOn>15.12.2013 22:29:03</OccuredOn>
+    <Exception>c:\Windows\Microsoft.NET\Framework\v4.0.30319\Temporary ASP.NET Files\root\14370870\c3a22944\App_Web_addauthor.cshtml.a8d08dba.x-xvqyow.0.cs(29): error CS0234: The type or namespace name 'Author' does not exist in the namespace 'LibraryUI.Models' (are you missing an assembly reference?)</Exception>
+    <InnerException />
+  </ErrorLog>
+  <ErrorLog>
+    <OccuredOn>15.12.2013 23:42:36</OccuredOn>
+    <Exception>A public action method 'Home' was not found on controller 'LibraryUI.Controllers.HomeController'.</Exception>
+    <InnerException />
+  </ErrorLog>
+  <ErrorLog>
+    <OccuredOn>15.12.2013 23:49:58</OccuredOn>
+    <Exception>A public action method 'Login' was not found on controller 'LibraryUI.Controllers.HomeController'.</Exception>
+    <InnerException />
+  </ErrorLog>
+  <ErrorLog>
+    <OccuredOn>15.12.2013 23:50:18</OccuredOn>
+    <Exception>A public action method 'Login' was not found on controller 'LibraryUI.Controllers.HomeController'.</Exception>
+    <InnerException />
+  </ErrorLog>
+  <ErrorLog>
+    <OccuredOn>15.12.2013 23:56:13</OccuredOn>
+    <Exception>The current request for action 'Login' on controller type 'HomeController' is ambiguous between the following action methods:
+System.Web.Mvc.ActionResult Login() on type LibraryUI.Controllers.HomeController
+System.Web.Mvc.ActionResult Login(LibraryUI.Models.User) on type LibraryUI.Controllers.HomeController</Exception>
+    <InnerException />
+  </ErrorLog>
+  <ErrorLog>
+    <OccuredOn>15.12.2013 23:57:53</OccuredOn>
+    <Exception>Object reference not set to an instance of an object.</Exception>
+    <InnerException />
+  </ErrorLog>
+  <ErrorLog>
+    <OccuredOn>16.12.2013 00:01:02</OccuredOn>
+    <Exception>The model item passed into the dictionary is of type 'System.Boolean', but this dictionary requires a model item of type 'LibraryUI.Models.User'.</Exception>
+    <InnerException />
+  </ErrorLog>
+  <ErrorLog>
+    <OccuredOn>16.12.2013 00:01:41</OccuredOn>
+    <Exception>The model item passed into the dictionary is of type 'System.Boolean', but this dictionary requires a model item of type 'LibraryUI.Models.User'.</Exception>
+    <InnerException />
+  </ErrorLog>
+  <ErrorLog>
+    <OccuredOn>16.12.2013 00:03:17</OccuredOn>
+    <Exception>The model item passed into the dictionary is of type 'System.Boolean', but this dictionary requires a model item of type 'LibraryUI.Models.User'.</Exception>
+    <InnerException />
+  </ErrorLog>
+  <ErrorLog>
+    <OccuredOn>16.12.2013 00:07:20</OccuredOn>
+    <Exception>The model item passed into the dictionary is of type 'System.Boolean', but this dictionary requires a model item of type 'LibraryUI.Models.User'.</Exception>
+    <InnerException />
+  </ErrorLog>
+  <ErrorLog>
+    <OccuredOn>16.12.2013 00:10:50</OccuredOn>
+    <Exception>e:\WORK\Library\LibraryUI\Views\Shared\_Layout.cshtml(21): error CS1955: Non-invocable member 'System.Web.HttpSessionStateBase.Timeout' cannot be used like a method.</Exception>
+    <InnerException />
+  </ErrorLog>
+  <ErrorLog>
+    <OccuredOn>16.12.2013 00:11:12</OccuredOn>
+    <Exception>e:\WORK\Library\LibraryUI\Views\Shared\_Layout.cshtml(21): error CS1502: The best overloaded method match for 'System.Tuple.Create&lt;object,int&gt;(object, int)' has some invalid arguments</Exception>
+    <InnerException />
+  </ErrorLog>
+  <ErrorLog>
+    <OccuredOn>16.12.2013 00:14:04</OccuredOn>
+    <Exception>A public action method 'LogOut;' was not found on controller 'LibraryUI.Controllers.HomeController'.</Exception>
+    <InnerException />
+  </ErrorLog>
+  <ErrorLog>
+    <OccuredOn>16.12.2013 00:14:26</OccuredOn>
+    <Exception>The view 'LogOut' or its master was not found or no view engine supports the searched locations. The following locations were searched:
+~/Views/Home/LogOut.aspx
+~/Views/Home/LogOut.ascx
+~/Views/Shared/LogOut.aspx
+~/Views/Shared/LogOut.ascx
+~/Views/Home/LogOut.cshtml
+~/Views/Home/LogOut.vbhtml
+~/Views/Shared/LogOut.cshtml
+~/Views/Shared/LogOut.vbhtml</Exception>
+    <InnerException />
+  </ErrorLog>
+  <ErrorLog>
+    <OccuredOn>16.12.2013 00:15:12</OccuredOn>
+    <Exception>A public action method 'LogOut' was not found on controller 'LibraryUI.Controllers.HomeController'.</Exception>
+    <InnerException />
+  </ErrorLog>
+  <ErrorLog>
+    <OccuredOn>16.12.2013 00:16:01</OccuredOn>
+    <Exception>Object reference not set to an instance of an object.</Exception>
+    <InnerException />
+  </ErrorLog>
+  <ErrorLog>
+    <OccuredOn>16.12.2013 00:18:08</OccuredOn>
+    <Exception>The view 'LogOut' or its master was not found or no view engine supports the searched locations. The following locations were searched:
+~/Views/Home/LogOut.aspx
+~/Views/Home/LogOut.ascx
+~/Views/Shared/LogOut.aspx
+~/Views/Shared/LogOut.ascx
+~/Views/Home/LogOut.cshtml
+~/Views/Home/LogOut.vbhtml
+~/Views/Shared/LogOut.cshtml
+~/Views/Shared/LogOut.vbhtml</Exception>
+    <InnerException />
+  </ErrorLog>
+  <ErrorLog>
+    <OccuredOn>16.12.2013 00:23:54</OccuredOn>
+    <Exception>The parameters dictionary contains a null entry for parameter 'LogOut' of non-nullable type 'System.Boolean' for method 'System.Web.Mvc.ActionResult Index(Boolean)' in 'LibraryUI.Controllers.HomeController'. An optional parameter must be a reference type, a nullable type, or be declared as an optional parameter.
+Parameter name: parameters</Exception>
+    <InnerException />
+  </ErrorLog>
+  <ErrorLog>
+    <OccuredOn>16.12.2013 00:24:58</OccuredOn>
+    <Exception>A public action method 'Index(true)' was not found on controller 'LibraryUI.Controllers.HomeController'.</Exception>
+    <InnerException />
+  </ErrorLog>
+  <ErrorLog>
+    <OccuredOn>16.12.2013 00:26:06</OccuredOn>
+    <Exception>A public action method 'Index(true)' was not found on controller 'LibraryUI.Controllers.HomeController'.</Exception>
+    <InnerException />
+  </ErrorLog>
+  <ErrorLog>
+    <OccuredOn>16.12.2013 09:40:19</OccuredOn>
+    <Exception>Object reference not set to an instance of an object.</Exception>
+    <InnerException />
+  </ErrorLog>
+  <ErrorLog>
+    <OccuredOn>16.12.2013 09:45:30</OccuredOn>
+    <Exception>e:\WORK\Library\LibraryUI\Views\Home\RequestBookComplete.cshtml(27): error CS0103: The name 'ID' does not exist in the current context</Exception>
+    <InnerException />
+  </ErrorLog>
+  <ErrorLog>
+    <OccuredOn>16.12.2013 09:51:43</OccuredOn>
+    <Exception>Cannot convert null to 'int' because it is a non-nullable value type</Exception>
+    <InnerException />
+  </ErrorLog>
+  <ErrorLog>
+    <OccuredOn>16.12.2013 09:55:27</OccuredOn>
+    <Exception>Cannot convert null to 'int' because it is a non-nullable value type</Exception>
+    <InnerException />
+  </ErrorLog>
+  <ErrorLog>
+    <OccuredOn>16.12.2013 09:59:56</OccuredOn>
+    <Exception>Object reference not set to an instance of an object.</Exception>
+    <InnerException />
+  </ErrorLog>
+  <ErrorLog>
+    <OccuredOn>16.12.2013 10:01:12</OccuredOn>
+    <Exception>Object reference not set to an instance of an object.</Exception>
+    <InnerException />
+  </ErrorLog>
+  <ErrorLog>
+    <OccuredOn>16.12.2013 10:31:26</OccuredOn>
+    <Exception>A public action method 'Home' was not found on controller 'LibraryUI.Controllers.HomeController'.</Exception>
+    <InnerException />
+  </ErrorLog>
+  <ErrorLog>
+    <OccuredOn>16.12.2013 10:38:34</OccuredOn>
+    <Exception>Object reference not set to an instance of an object.</Exception>
+    <InnerException />
+  </ErrorLog>
+  <ErrorLog>
+    <OccuredOn>16.12.2013 10:48:37</OccuredOn>
+    <Exception>Object reference not set to an instance of an object.</Exception>
+    <InnerException />
+  </ErrorLog>
+  <ErrorLog>
+    <OccuredOn>16.12.2013 10:50:11</OccuredOn>
+    <Exception>Object reference not set to an instance of an object.</Exception>
+    <InnerException />
+  </ErrorLog>
+  <ErrorLog>
+    <OccuredOn>16.12.2013 22:46:39</OccuredOn>
+    <Exception>Object reference not set to an instance of an object.</Exception>
+    <InnerException />
+  </ErrorLog>
+  <ErrorLog>
+    <OccuredOn>16.12.2013 22:56:07</OccuredOn>
+    <Exception>Object reference not set to an instance of an object.</Exception>
+    <InnerException />
+  </ErrorLog>
+  <ErrorLog>
+    <OccuredOn>16.12.2013 22:58:45</OccuredOn>
+    <Exception>Object reference not set to an instance of an object.</Exception>
+    <InnerException />
+  </ErrorLog>
+  <ErrorLog>
+    <OccuredOn>17.12.2013 13:13:15</OccuredOn>
+    <Exception>Object reference not set to an instance of an object.</Exception>
+    <InnerException />
+  </ErrorLog>
+  <ErrorLog>
+    <OccuredOn>17.12.2013 13:15:57</OccuredOn>
+    <Exception>Object reference not set to an instance of an object.</Exception>
+    <InnerException />
+  </ErrorLog>
+  <ErrorLog>
+    <OccuredOn>17.12.2013 13:23:09</OccuredOn>
+    <Exception>Object reference not set to an instance of an object.</Exception>
+    <InnerException />
+  </ErrorLog>
+  <ErrorLog>
+    <OccuredOn>17.12.2013 13:24:18</OccuredOn>
+    <Exception>Object reference not set to an instance of an object.</Exception>
+    <InnerException />
+  </ErrorLog>
+  <ErrorLog>
+    <OccuredOn>17.12.2013 14:45:44</OccuredOn>
+    <Exception>Unable to update the EntitySet 'User' because it has a DefiningQuery and no &lt;InsertFunction&gt; element exists in the &lt;ModificationFunctionMapping&gt; element to support the current operation.</Exception>
+    <InnerException>System.Data.UpdateException: Unable to update the EntitySet 'User' because it has a DefiningQuery and no &lt;InsertFunction&gt; element exists in the &lt;ModificationFunctionMapping&gt; element to support the current operation.
+   at System.Data.SqlClient.SqlGen.DmlSqlGenerator.ExpressionTranslator.Visit(DbScanExpression expression)
+   at System.Data.Common.CommandTrees.DbScanExpression.Accept(DbExpressionVisitor visitor)
+   at System.Data.SqlClient.SqlGen.DmlSqlGenerator.GenerateInsertSql(DbInsertCommandTree tree, SqlVersion sqlVersion, List`1&amp; parameters)
+   at System.Data.SqlClient.SqlGen.SqlGenerator.GenerateSql(DbCommandTree tree, SqlVersion sqlVersion, List`1&amp; parameters, CommandType&amp; commandType, HashSet`1&amp; paramsToForceNonUnicode)
+   at System.Data.SqlClient.SqlProviderServices.CreateCommand(DbProviderManifest providerManifest, DbCommandTree commandTree)
+   at System.Data.SqlClient.SqlProviderServices.CreateCommand(DbCommandTree commandTree)
+   at System.Data.Mapping.Update.Internal.UpdateTranslator.CreateCommand(DbModificationCommandTree commandTree)
+   at System.Data.Mapping.Update.Internal.DynamicUpdateCommand.CreateCommand(UpdateTranslator translator, Dictionary`2 identifierValues)
+   at System.Data.Mapping.Update.Internal.DynamicUpdateCommand.Execute(UpdateTranslator translator, EntityConnection connection, Dictionary`2 identifierValues, List`1 generatedValues)
+   at System.Data.Mapping.Update.Internal.UpdateTranslator.Update(IEntityStateManager stateManager, IEntityAdapter adapter)
+   at System.Data.EntityClient.EntityAdapter.Update(IEntityStateManager entityCache)
+   at System.Data.Objects.ObjectContext.SaveChanges(SaveOptions options)
+   at System.Data.Entity.Internal.InternalContext.SaveChanges()</InnerException>
+  </ErrorLog>
+  <ErrorLog>
+    <OccuredOn>17.12.2013 14:48:27</OccuredOn>
+    <Exception>Unable to update the EntitySet 'User' because it has a DefiningQuery and no &lt;InsertFunction&gt; element exists in the &lt;ModificationFunctionMapping&gt; element to support the current operation.</Exception>
+    <InnerException>System.Data.UpdateException: Unable to update the EntitySet 'User' because it has a DefiningQuery and no &lt;InsertFunction&gt; element exists in the &lt;ModificationFunctionMapping&gt; element to support the current operation.
+   at System.Data.SqlClient.SqlGen.DmlSqlGenerator.ExpressionTranslator.Visit(DbScanExpression expression)
+   at System.Data.Common.CommandTrees.DbScanExpression.Accept(DbExpressionVisitor visitor)
+   at System.Data.SqlClient.SqlGen.DmlSqlGenerator.GenerateInsertSql(DbInsertCommandTree tree, SqlVersion sqlVersion, List`1&amp; parameters)
+   at System.Data.SqlClient.SqlGen.SqlGenerator.GenerateSql(DbCommandTree tree, SqlVersion sqlVersion, List`1&amp; parameters, CommandType&amp; commandType, HashSet`1&amp; paramsToForceNonUnicode)
+   at System.Data.SqlClient.SqlProviderServices.CreateCommand(DbProviderManifest providerManifest, DbCommandTree commandTree)
+   at System.Data.SqlClient.SqlProviderServices.CreateCommand(DbCommandTree commandTree)
+   at System.Data.Mapping.Update.Internal.UpdateTranslator.CreateCommand(DbModificationCommandTree commandTree)
+   at System.Data.Mapping.Update.Internal.DynamicUpdateCommand.CreateCommand(UpdateTranslator translator, Dictionary`2 identifierValues)
+   at System.Data.Mapping.Update.Internal.DynamicUpdateCommand.Execute(UpdateTranslator translator, EntityConnection connection, Dictionary`2 identifierValues, List`1 generatedValues)
+   at System.Data.Mapping.Update.Internal.UpdateTranslator.Update(IEntityStateManager stateManager, IEntityAdapter adapter)
+   at System.Data.EntityClient.EntityAdapter.Update(IEntityStateManager entityCache)
+   at System.Data.Objects.ObjectContext.SaveChanges(SaveOptions options)
+   at System.Data.Entity.Internal.InternalContext.SaveChanges()</InnerException>
+  </ErrorLog>
+  <ErrorLog>
+    <OccuredOn>17.12.2013 14:49:44</OccuredOn>
+    <Exception>Object reference not set to an instance of an object.</Exception>
+    <InnerException />
+  </ErrorLog>
+  <ErrorLog>
+    <OccuredOn>17.12.2013 22:19:27</OccuredOn>
+    <Exception>The operation cannot be completed because the DbContext has been disposed.</Exception>
+    <InnerException />
+  </ErrorLog>
+  <ErrorLog>
+    <OccuredOn>17.12.2013 22:24:11</OccuredOn>
+    <Exception>The operation cannot be completed because the DbContext has been disposed.</Exception>
+    <InnerException />
+  </ErrorLog>
+  <ErrorLog>
+    <OccuredOn>17.12.2013 22:26:45</OccuredOn>
+    <Exception>Unable to create a constant value of type 'System.DBNull'. Only primitive types or enumeration types are supported in this context.</Exception>
+    <InnerException />
+  </ErrorLog>
+  <ErrorLog>
+    <OccuredOn>18.12.2013 13:16:21</OccuredOn>
+    <Exception>A public action method 'ApproveRequest' was not found on controller 'LibraryUI.Controllers.HomeController'.</Exception>
+    <InnerException />
+  </ErrorLog>
+  <ErrorLog>
+    <OccuredOn>18.12.2013 13:30:02</OccuredOn>
+    <Exception>A public action method 'ApproveReject' was not found on controller 'LibraryUI.Controllers.HomeController'.</Exception>
+    <InnerException />
+  </ErrorLog>
+  <ErrorLog>
+    <OccuredOn>18.12.2013 13:32:13</OccuredOn>
+    <Exception>The view 'Requests' or its master was not found or no view engine supports the searched locations. The following locations were searched:
+~/Views/Requests/Requests.aspx
+~/Views/Requests/Requests.ascx
+~/Views/Shared/Requests.aspx
+~/Views/Shared/Requests.ascx
+~/Views/Requests/Requests.cshtml
+~/Views/Requests/Requests.vbhtml
+~/Views/Shared/Requests.cshtml
+~/Views/Shared/Requests.vbhtml</Exception>
+    <InnerException />
+  </ErrorLog>
+  <ErrorLog>
+    <OccuredOn>18.12.2013 13:32:16</OccuredOn>
+    <Exception>The controller for path '/RequestsController/ApproveReject/70' was not found or does not implement IController.</Exception>
+    <InnerException />
+  </ErrorLog>
+  <ErrorLog>
+    <OccuredOn>18.12.2013 13:32:27</OccuredOn>
+    <Exception>The view 'Requests' or its master was not found or no view engine supports the searched locations. The following locations were searched:
+~/Views/Requests/Requests.aspx
+~/Views/Requests/Requests.ascx
+~/Views/Shared/Requests.aspx
+~/Views/Shared/Requests.ascx
+~/Views/Requests/Requests.cshtml
+~/Views/Requests/Requests.vbhtml
+~/Views/Shared/Requests.cshtml
+~/Views/Shared/Requests.vbhtml</Exception>
+    <InnerException />
+  </ErrorLog>
+  <ErrorLog>
+    <OccuredOn>18.12.2013 13:32:36</OccuredOn>
+    <Exception>The controller for path '/RequestsController/ApproveReject/70' was not found or does not implement IController.</Exception>
+    <InnerException />
+  </ErrorLog>
+  <ErrorLog>
+    <OccuredOn>18.12.2013 23:19:46</OccuredOn>
+    <Exception>Keyword not supported: 'metadata'.</Exception>
+    <InnerException />
+  </ErrorLog>
+  <ErrorLog>
+    <OccuredOn>18.12.2013 23:21:35</OccuredOn>
+    <Exception>Could not find stored procedure 'uspAvailable'.</Exception>
+    <InnerException />
+  </ErrorLog>
+  <ErrorLog>
+    <OccuredOn>18.12.2013 23:21:55</OccuredOn>
+    <Exception>String was not recognized as a valid DateTime.</Exception>
+    <InnerException />
+  </ErrorLog>
+  <ErrorLog>
+    <OccuredOn>18.12.2013 23:23:23</OccuredOn>
+    <Exception>Object reference not set to an instance of an object.</Exception>
+    <InnerException />
+  </ErrorLog>
+  <ErrorLog>
+    <OccuredOn>18.12.2013 23:23:46</OccuredOn>
+    <Exception>String was not recognized as a valid DateTime.</Exception>
+    <InnerException />
+  </ErrorLog>
+  <ErrorLog>
+    <OccuredOn>18.12.2013 23:24:08</OccuredOn>
+    <Exception>String was not recognized as a valid Boolean.</Exception>
+    <InnerException />
+  </ErrorLog>
+  <ErrorLog>
+    <OccuredOn>18.12.2013 23:30:52</OccuredOn>
+    <Exception>Object reference not set to an instance of an object.</Exception>
+    <InnerException />
+  </ErrorLog>
+  <ErrorLog>
+    <OccuredOn>18.12.2013 23:33:19</OccuredOn>
+    <Exception>The model item passed into the dictionary is of type 'System.Boolean', but this dictionary requires a model item of type 'LibraryUI.Models.User'.</Exception>
+    <InnerException />
+  </ErrorLog>
+  <ErrorLog>
+    <OccuredOn>18.12.2013 23:34:02</OccuredOn>
+    <Exception>The model item passed into the dictionary is of type 'System.Boolean', but this dictionary requires a model item of type 'LibraryUI.Models.User'.</Exception>
+    <InnerException />
+  </ErrorLog>
+  <ErrorLog>
+    <OccuredOn>18.12.2013 23:34:18</OccuredOn>
+    <Exception>The model item passed into the dictionary is of type 'System.Boolean', but this dictionary requires a model item of type 'LibraryUI.Models.User'.</Exception>
+    <InnerException />
+  </ErrorLog>
+  <ErrorLog>
+    <OccuredOn>18.12.2013 23:34:29</OccuredOn>
+    <Exception>The model item passed into the dictionary is of type 'System.Boolean', but this dictionary requires a model item of type 'LibraryUI.Models.User'.</Exception>
+    <InnerException />
+  </ErrorLog>
+  <ErrorLog>
+    <OccuredOn>18.12.2013 23:35:01</OccuredOn>
+    <Exception>The model item passed into the dictionary is of type 'System.Boolean', but this dictionary requires a model item of type 'LibraryUI.Models.User'.</Exception>
+    <InnerException />
+  </ErrorLog>
+  <ErrorLog>
+    <OccuredOn>18.12.2013 23:39:39</OccuredOn>
+    <Exception>Object reference not set to an instance of an object.</Exception>
+    <InnerException />
+  </ErrorLog>
+  <ErrorLog>
+    <OccuredOn>19.12.2013 00:00:41</OccuredOn>
+    <Exception>LINQ to Entities does not recognize the method 'Int32 Parse(System.String)' method, and this method cannot be translated into a store expression.</Exception>
+    <InnerException />
+  </ErrorLog>
+  <ErrorLog>
+    <OccuredOn>19.12.2013 00:01:48</OccuredOn>
+    <Exception>Unable to create a constant value of type 'System.Object'. Only primitive types or enumeration types are supported in this context.</Exception>
+    <InnerException />
+  </ErrorLog>
+  <ErrorLog>
+    <OccuredOn>19.12.2013 00:01:49</OccuredOn>
+    <Exception>Unable to create a constant value of type 'System.Object'. Only primitive types or enumeration types are supported in this context.</Exception>
+    <InnerException />
+  </ErrorLog>
+  <ErrorLog>
+    <OccuredOn>19.12.2013 00:01:49</OccuredOn>
+    <Exception>Unable to create a constant value of type 'System.Object'. Only primitive types or enumeration types are supported in this context.</Exception>
+    <InnerException />
+  </ErrorLog>
+  <ErrorLog>
+    <OccuredOn>19.12.2013 20:04:47</OccuredOn>
+    <Exception>A public action method 'UserList' was not found on controller 'LibraryUI.Controllers.HomeController'.</Exception>
+    <InnerException />
+  </ErrorLog>
+  <ErrorLog>
+    <OccuredOn>19.12.2013 20:05:55</OccuredOn>
+    <Exception>A public action method 'UserList' was not found on controller 'LibraryUI.Controllers.HomeController'.</Exception>
+    <InnerException />
+  </ErrorLog>
+  <ErrorLog>
+    <OccuredOn>19.12.2013 20:08:05</OccuredOn>
+    <Exception>The view 'UserList' or its master was not found or no view engine supports the searched locations. The following locations were searched:
+~/Views/User/UserList.aspx
+~/Views/User/UserList.ascx
+~/Views/Shared/UserList.aspx
+~/Views/Shared/UserList.ascx
+~/Views/User/UserList.cshtml
+~/Views/User/UserList.vbhtml
+~/Views/Shared/UserList.cshtml
+~/Views/Shared/UserList.vbhtml</Exception>
+    <InnerException />
+  </ErrorLog>
+  <ErrorLog>
+    <OccuredOn>19.12.2013 20:08:25</OccuredOn>
+    <Exception>The view 'UserList' or its master was not found or no view engine supports the searched locations. The following locations were searched:
+~/Views/User/UserList.aspx
+~/Views/User/UserList.ascx
+~/Views/Shared/UserList.aspx
+~/Views/Shared/UserList.ascx
+~/Views/User/UserList.cshtml
+~/Views/User/UserList.vbhtml
+~/Views/Shared/UserList.cshtml
+~/Views/Shared/UserList.vbhtml</Exception>
+    <InnerException />
+  </ErrorLog>
+  <ErrorLog>
+    <OccuredOn>19.12.2013 20:09:19</OccuredOn>
+    <Exception>The view 'UserList' or its master was not found or no view engine supports the searched locations. The following locations were searched:
+~/Views/User/UserList.aspx
+~/Views/User/UserList.ascx
+~/Views/Shared/UserList.aspx
+~/Views/Shared/UserList.ascx
+~/Views/User/UserList.cshtml
+~/Views/User/UserList.vbhtml
+~/Views/Shared/UserList.cshtml
+~/Views/Shared/UserList.vbhtml</Exception>
+    <InnerException />
+  </ErrorLog>
+  <ErrorLog>
+    <OccuredOn>19.12.2013 20:16:23</OccuredOn>
+    <Exception>A public action method 'Login' was not found on controller 'LibraryUI.Controllers.HomeController'.</Exception>
+    <InnerException />
+  </ErrorLog>
+  <ErrorLog>
+    <OccuredOn>19.12.2013 21:57:13</OccuredOn>
+    <Exception>Could not load file or assembly 'Logger' or one of its dependencies. The system cannot find the file specified.</Exception>
+    <InnerException />
+  </ErrorLog>
+  <ErrorLog>
+    <OccuredOn>19.12.2013 21:57:34</OccuredOn>
+    <Exception>Could not load file or assembly 'Logger' or one of its dependencies. The system cannot find the file specified.</Exception>
+    <InnerException />
+  </ErrorLog>
+  <ErrorLog>
+    <OccuredOn>19.12.2013 21:59:16</OccuredOn>
+    <Exception>Could not load file or assembly 'Logger' or one of its dependencies. The system cannot find the file specified.</Exception>
+    <InnerException />
+  </ErrorLog>
+  <ErrorLog>
+    <OccuredOn>19.12.2013 21:59:26</OccuredOn>
+    <Exception>Could not load file or assembly 'Logger' or one of its dependencies. The system cannot find the file specified.</Exception>
+    <InnerException />
+  </ErrorLog>
+  <ErrorLog>
+    <OccuredOn>19.12.2013 22:01:48</OccuredOn>
+    <Exception>Could not load file or assembly 'Logger' or one of its dependencies. The system cannot find the file specified.</Exception>
+    <InnerException />
+  </ErrorLog>
+  <ErrorLog>
+    <OccuredOn>19.12.2013 22:05:15</OccuredOn>
+    <Exception>e:\WORK\Library\LibraryUI\Views\Home\Index.cshtml(12): error CS0234: The type or namespace name 'Logging' does not exist in the namespace 'LibraryUI' (are you missing an assembly reference?)</Exception>
+    <InnerException />
+  </ErrorLog>
+  <ErrorLog>
+    <OccuredOn>19.12.2013 22:08:43</OccuredOn>
+    <Exception>Could not load type 'SqlLogger' from assembly 'Logger, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null'.</Exception>
+    <InnerException />
+  </ErrorLog>
+  <ErrorLog>
+    <OccuredOn>19.12.2013 22:09:35</OccuredOn>
+    <Exception>Could not load type 'Logging.SqlLogger' from assembly 'Logger, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null'.</Exception>
+    <InnerException />
+  </ErrorLog>
+  <ErrorLog>
+    <OccuredOn>19.12.2013 22:10:03</OccuredOn>
+    <Exception>Could not load type 'Logger.Logging.SqlLogger' from assembly 'Logger, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null'.</Exception>
+    <InnerException />
+  </ErrorLog>
+  <ErrorLog>
+    <OccuredOn>19.12.2013 22:10:45</OccuredOn>
+    <Exception>Could not load type 'Logger.SqlLogger' from assembly 'Logger, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null'.</Exception>
+    <InnerException />
+  </ErrorLog>
+  <ErrorLog>
+    <OccuredOn>19.12.2013 22:14:28</OccuredOn>
+    <Exception>Could not load type 'Logger.Logging.SqlLogger' from assembly 'Logger, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null'.</Exception>
+    <InnerException />
+  </ErrorLog>
+  <ErrorLog>
+    <OccuredOn>19.12.2013 22:15:12</OccuredOn>
+    <Exception>Could not load type 'Logger.LibraryUI.Logging.SqlLogger' from assembly 'Logger, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null'.</Exception>
+    <InnerException />
+  </ErrorLog>
+  <ErrorLog>
+    <OccuredOn>19.12.2013 22:15:28</OccuredOn>
+    <Exception>:( sql logger bulunamadı</Exception>
+    <InnerException />
+  </ErrorLog>
+  <ErrorLog>
+    <OccuredOn>19.12.2013 23:55:34</OccuredOn>
+    <Exception>The method or operation is not implemented.</Exception>
+    <InnerException />
+  </ErrorLog>
+  <ErrorLog>
+    <OccuredOn>21.12.2013 01:15:38</OccuredOn>
+    <Exception>test</Exception>
+  </ErrorLog>
+  <ErrorLog>
+    <OccuredOn>29.12.2013 18:15:14</OccuredOn>
+    <Exception>Controller Name:User, Model Name:Login, Exception:System.Web.HttpCompileException (0x80004005): e:\WORK\Library\LibraryUI\Views\User\Login.cshtml(105): error CS1056: Unexpected character '\'
+   at System.Web.Compilation.AssemblyBuilder.Compile()
+   at System.Web.Compilation.BuildProvidersCompiler.PerformBuild()
+   at System.Web.Compilation.BuildManager.CompileWebFile(VirtualPath virtualPath)
+   at System.Web.Compilation.BuildManager.GetVPathBuildResultInternal(VirtualPath virtualPath, Boolean noBuild, Boolean allowCrossApp, Boolean allowBuildInPrecompile, Boolean throwIfNotFound, Boolean ensureIsUpToDate)
+   at System.Web.Compilation.BuildManager.GetVPathBuildResultWithNoAssert(HttpContext context, VirtualPath virtualPath, Boolean noBuild, Boolean allowCrossApp, Boolean allowBuildInPrecompile, Boolean throwIfNotFound, Boolean ensureIsUpToDate)
+   at System.Web.Compilation.BuildManager.GetVirtualPathObjectFactory(VirtualPath virtualPath, HttpContext context, Boolean allowCrossApp, Boolean throwIfNotFound)
+   at System.Web.Compilation.BuildManager.GetObjectFactory(String virtualPath, Boolean throwIfNotFound)
+   at System.Web.Mvc.BuildManagerWrapper.System.Web.Mvc.IBuildManager.FileExists(String virtualPath)
+   at System.Web.Mvc.BuildManagerViewEngine.FileExists(ControllerContext controllerContext, String virtualPath)
+   at System.Web.Mvc.VirtualPathProviderViewEngine.&lt;&gt;c__DisplayClass4.&lt;GetPathFromGeneralName&gt;b__0(String path)
+   at System.Web.WebPages.DefaultDisplayMode.GetDisplayInfo(HttpContextBase httpContext, String virtualPath, Func`2 virtualPathExists)
+   at System.Web.WebPages.DisplayModeProvider.&lt;&gt;c__DisplayClassb.&lt;GetDisplayInfoForVirtualPath&gt;b__8(IDisplayMode mode)
+   at System.Linq.Enumerable.WhereSelectListIterator`2.MoveNext()
+   at System.Linq.Enumerable.FirstOrDefault[TSource](IEnumerable`1 source, Func`2 predicate)
+   at System.Web.WebPages.DisplayModeProvider.GetDisplayInfoForVirtualPath(String virtualPath, HttpContextBase httpContext, Func`2 virtualPathExists, IDisplayMode currentDisplayMode, Boolean requireConsistentDisplayMode)
+   at System.Web.Mvc.VirtualPathProviderViewEngine.GetPathFromGeneralName(ControllerContext controllerContext, List`1 locations, String name, String controllerName, String areaName, String cacheKey, String[]&amp; searchedLocations)
+   at System.Web.Mvc.VirtualPathProviderViewEngine.GetPath(ControllerContext controllerContext, String[] locations, String[] areaLocations, String locationsPropertyName, String name, String controllerName, String cacheKeyPrefix, Boolean useCache, String[]&amp; searchedLocations)
+   at System.Web.Mvc.VirtualPathProviderViewEngine.FindView(ControllerContext controllerContext, String viewName, String masterName, Boolean useCache)
+   at System.Web.Mvc.ViewEngineCollection.&lt;&gt;c__DisplayClassc.&lt;FindView&gt;b__b(IViewEngine e)
+   at System.Web.Mvc.ViewEngineCollection.Find(Func`2 lookup, Boolean trackSearchedPaths)
+   at System.Web.Mvc.ViewEngineCollection.FindView(ControllerContext controllerContext, String viewName, String masterName)
+   at System.Web.Mvc.ViewResult.FindView(ControllerContext context)
+   at System.Web.Mvc.ViewResultBase.ExecuteResult(ControllerContext context)
+   at System.Web.Mvc.ControllerActionInvoker.InvokeActionResult(ControllerContext controllerContext, ActionResult actionResult)
+   at System.Web.Mvc.ControllerActionInvoker.&lt;&gt;c__DisplayClass1a.&lt;InvokeActionResultWithFilters&gt;b__17()
+   at System.Web.Mvc.ControllerActionInvoker.InvokeActionResultFilter(IResultFilter filter, ResultExecutingContext preContext, Func`1 continuation)
+   at System.Web.Mvc.ControllerActionInvoker.&lt;&gt;c__DisplayClass1a.&lt;&gt;c__DisplayClass1c.&lt;InvokeActionResultWithFilters&gt;b__19()
+   at System.Web.Mvc.ControllerActionInvoker.InvokeActionResultWithFilters(ControllerContext controllerContext, IList`1 filters, ActionResult actionResult)
+   at System.Web.Mvc.Async.AsyncControllerActionInvoker.&lt;&gt;c__DisplayClass25.&lt;&gt;c__DisplayClass2a.&lt;BeginInvokeAction&gt;b__20()
+   at System.Web.Mvc.Async.AsyncControllerActionInvoker.&lt;&gt;c__DisplayClass25.&lt;BeginInvokeAction&gt;b__22(IAsyncResult asyncResult)</Exception>
+  </ErrorLog>
+  <ErrorLog>
+    <OccuredOn>29.12.2013 18:19:44</OccuredOn>
+    <Exception>Controller Name:User, Model Name:Login, Exception:System.Web.HttpCompileException (0x80004005): e:\WORK\Library\LibraryUI\Views\User\Login.cshtml(105): error CS1056: Unexpected character '\'
+   at System.Web.Compilation.AssemblyBuilder.Compile()
+   at System.Web.Compilation.BuildProvidersCompiler.PerformBuild()
+   at System.Web.Compilation.BuildManager.CompileWebFile(VirtualPath virtualPath)
+   at System.Web.Compilation.BuildManager.GetVPathBuildResultInternal(VirtualPath virtualPath, Boolean noBuild, Boolean allowCrossApp, Boolean allowBuildInPrecompile, Boolean throwIfNotFound, Boolean ensureIsUpToDate)
+   at System.Web.Compilation.BuildManager.GetVPathBuildResultWithNoAssert(HttpContext context, VirtualPath virtualPath, Boolean noBuild, Boolean allowCrossApp, Boolean allowBuildInPrecompile, Boolean throwIfNotFound, Boolean ensureIsUpToDate)
+   at System.Web.Compilation.BuildManager.GetVirtualPathObjectFactory(VirtualPath virtualPath, HttpContext context, Boolean allowCrossApp, Boolean throwIfNotFound)
+   at System.Web.Compilation.BuildManager.GetObjectFactory(String virtualPath, Boolean throwIfNotFound)
+   at System.Web.Mvc.BuildManagerWrapper.System.Web.Mvc.IBuildManager.FileExists(String virtualPath)
+   at System.Web.Mvc.BuildManagerViewEngine.FileExists(ControllerContext controllerContext, String virtualPath)
+   at System.Web.Mvc.VirtualPathProviderViewEngine.&lt;&gt;c__DisplayClass4.&lt;GetPathFromGeneralName&gt;b__0(String path)
+   at System.Web.WebPages.DefaultDisplayMode.GetDisplayInfo(HttpContextBase httpContext, String virtualPath, Func`2 virtualPathExists)
+   at System.Web.WebPages.DisplayModeProvider.&lt;&gt;c__DisplayClassb.&lt;GetDisplayInfoForVirtualPath&gt;b__8(IDisplayMode mode)
+   at System.Linq.Enumerable.WhereSelectListIterator`2.MoveNext()
+   at System.Linq.Enumerable.FirstOrDefault[TSource](IEnumerable`1 source, Func`2 predicate)
+   at System.Web.WebPages.DisplayModeProvider.GetDisplayInfoForVirtualPath(String virtualPath, HttpContextBase httpContext, Func`2 virtualPathExists, IDisplayMode currentDisplayMode, Boolean requireConsistentDisplayMode)
+   at System.Web.Mvc.VirtualPathProviderViewEngine.GetPathFromGeneralName(ControllerContext controllerContext, List`1 locations, String name, String controllerName, String areaName, String cacheKey, String[]&amp; searchedLocations)
+   at System.Web.Mvc.VirtualPathProviderViewEngine.GetPath(ControllerContext controllerContext, String[] locations, String[] areaLocations, String locationsPropertyName, String name, String controllerName, String cacheKeyPrefix, Boolean useCache, String[]&amp; searchedLocations)
+   at System.Web.Mvc.VirtualPathProviderViewEngine.FindView(ControllerContext controllerContext, String viewName, String masterName, Boolean useCache)
+   at System.Web.Mvc.ViewEngineCollection.&lt;&gt;c__DisplayClassc.&lt;FindView&gt;b__b(IViewEngine e)
+   at System.Web.Mvc.ViewEngineCollection.Find(Func`2 lookup, Boolean trackSearchedPaths)
+   at System.Web.Mvc.ViewEngineCollection.FindView(ControllerContext controllerContext, String viewName, String masterName)
+   at System.Web.Mvc.ViewResult.FindView(ControllerContext context)
+   at System.Web.Mvc.ViewResultBase.ExecuteResult(ControllerContext context)
+   at System.Web.Mvc.ControllerActionInvoker.InvokeActionResult(ControllerContext controllerContext, ActionResult actionResult)
+   at System.Web.Mvc.ControllerActionInvoker.&lt;&gt;c__DisplayClass1a.&lt;InvokeActionResultWithFilters&gt;b__17()
+   at System.Web.Mvc.ControllerActionInvoker.InvokeActionResultFilter(IResultFilter filter, ResultExecutingContext preContext, Func`1 continuation)
+   at System.Web.Mvc.ControllerActionInvoker.&lt;&gt;c__DisplayClass1a.&lt;&gt;c__DisplayClass1c.&lt;InvokeActionResultWithFilters&gt;b__19()
+   at System.Web.Mvc.ControllerActionInvoker.InvokeActionResultWithFilters(ControllerContext controllerContext, IList`1 filters, ActionResult actionResult)
+   at System.Web.Mvc.Async.AsyncControllerActionInvoker.&lt;&gt;c__DisplayClass25.&lt;&gt;c__DisplayClass2a.&lt;BeginInvokeAction&gt;b__20()
+   at System.Web.Mvc.Async.AsyncControllerActionInvoker.&lt;&gt;c__DisplayClass25.&lt;BeginInvokeAction&gt;b__22(IAsyncResult asyncResult)</Exception>
+  </ErrorLog>
+  <ErrorLog>
+    <OccuredOn>29.12.2013 18:20:22</OccuredOn>
+    <Exception>Controller Name:User, Model Name:Login, Exception:System.Web.HttpCompileException (0x80004005): e:\WORK\Library\LibraryUI\Views\User\Login.cshtml(105): error CS1056: Unexpected character '\'
+   at System.Web.Compilation.AssemblyBuilder.Compile()
+   at System.Web.Compilation.BuildProvidersCompiler.PerformBuild()
+   at System.Web.Compilation.BuildManager.CompileWebFile(VirtualPath virtualPath)
+   at System.Web.Compilation.BuildManager.GetVPathBuildResultInternal(VirtualPath virtualPath, Boolean noBuild, Boolean allowCrossApp, Boolean allowBuildInPrecompile, Boolean throwIfNotFound, Boolean ensureIsUpToDate)
+   at System.Web.Compilation.BuildManager.GetVPathBuildResultWithNoAssert(HttpContext context, VirtualPath virtualPath, Boolean noBuild, Boolean allowCrossApp, Boolean allowBuildInPrecompile, Boolean throwIfNotFound, Boolean ensureIsUpToDate)
+   at System.Web.Compilation.BuildManager.GetVirtualPathObjectFactory(VirtualPath virtualPath, HttpContext context, Boolean allowCrossApp, Boolean throwIfNotFound)
+   at System.Web.Compilation.BuildManager.GetObjectFactory(String virtualPath, Boolean throwIfNotFound)
+   at System.Web.Mvc.BuildManagerWrapper.System.Web.Mvc.IBuildManager.FileExists(String virtualPath)
+   at System.Web.Mvc.BuildManagerViewEngine.FileExists(ControllerContext controllerContext, String virtualPath)
+   at System.Web.Mvc.VirtualPathProviderViewEngine.&lt;&gt;c__DisplayClass4.&lt;GetPathFromGeneralName&gt;b__0(String path)
+   at System.Web.WebPages.DefaultDisplayMode.GetDisplayInfo(HttpContextBase httpContext, String virtualPath, Func`2 virtualPathExists)
+   at System.Web.WebPages.DisplayModeProvider.&lt;&gt;c__DisplayClassb.&lt;GetDisplayInfoForVirtualPath&gt;b__8(IDisplayMode mode)
+   at System.Linq.Enumerable.WhereSelectListIterator`2.MoveNext()
+   at System.Linq.Enumerable.FirstOrDefault[TSource](IEnumerable`1 source, Func`2 predicate)
+   at System.Web.WebPages.DisplayModeProvider.GetDisplayInfoForVirtualPath(String virtualPath, HttpContextBase httpContext, Func`2 virtualPathExists, IDisplayMode currentDisplayMode, Boolean requireConsistentDisplayMode)
+   at System.Web.Mvc.VirtualPathProviderViewEngine.GetPathFromGeneralName(ControllerContext controllerContext, List`1 locations, String name, String controllerName, String areaName, String cacheKey, String[]&amp; searchedLocations)
+   at System.Web.Mvc.VirtualPathProviderViewEngine.GetPath(ControllerContext controllerContext, String[] locations, String[] areaLocations, String locationsPropertyName, String name, String controllerName, String cacheKeyPrefix, Boolean useCache, String[]&amp; searchedLocations)
+   at System.Web.Mvc.VirtualPathProviderViewEngine.FindView(ControllerContext controllerContext, String viewName, String masterName, Boolean useCache)
+   at System.Web.Mvc.ViewEngineCollection.&lt;&gt;c__DisplayClassc.&lt;FindView&gt;b__b(IViewEngine e)
+   at System.Web.Mvc.ViewEngineCollection.Find(Func`2 lookup, Boolean trackSearchedPaths)
+   at System.Web.Mvc.ViewEngineCollection.FindView(ControllerContext controllerContext, String viewName, String masterName)
+   at System.Web.Mvc.ViewResult.FindView(ControllerContext context)
+   at System.Web.Mvc.ViewResultBase.ExecuteResult(ControllerContext context)
+   at System.Web.Mvc.ControllerActionInvoker.InvokeActionResult(ControllerContext controllerContext, ActionResult actionResult)
+   at System.Web.Mvc.ControllerActionInvoker.&lt;&gt;c__DisplayClass1a.&lt;InvokeActionResultWithFilters&gt;b__17()
+   at System.Web.Mvc.ControllerActionInvoker.InvokeActionResultFilter(IResultFilter filter, ResultExecutingContext preContext, Func`1 continuation)
+   at System.Web.Mvc.ControllerActionInvoker.&lt;&gt;c__DisplayClass1a.&lt;&gt;c__DisplayClass1c.&lt;InvokeActionResultWithFilters&gt;b__19()
+   at System.Web.Mvc.ControllerActionInvoker.InvokeActionResultWithFilters(ControllerContext controllerContext, IList`1 filters, ActionResult actionResult)
+   at System.Web.Mvc.Async.AsyncControllerActionInvoker.&lt;&gt;c__DisplayClass25.&lt;&gt;c__DisplayClass2a.&lt;BeginInvokeAction&gt;b__20()
+   at System.Web.Mvc.Async.AsyncControllerActionInvoker.&lt;&gt;c__DisplayClass25.&lt;BeginInvokeAction&gt;b__22(IAsyncResult asyncResult)</Exception>
+  </ErrorLog>
+  <ErrorLog>
+    <OccuredOn>29.12.2013 18:22:53</OccuredOn>
+    <Exception>Controller Name:User, Model Name:Login, Exception:System.Web.HttpCompileException (0x80004005): e:\WORK\Library\LibraryUI\Views\User\Login.cshtml(105): error CS1056: Unexpected character '\'
+   at System.Web.Compilation.AssemblyBuilder.Compile()
+   at System.Web.Compilation.BuildProvidersCompiler.PerformBuild()
+   at System.Web.Compilation.BuildManager.CompileWebFile(VirtualPath virtualPath)
+   at System.Web.Compilation.BuildManager.GetVPathBuildResultInternal(VirtualPath virtualPath, Boolean noBuild, Boolean allowCrossApp, Boolean allowBuildInPrecompile, Boolean throwIfNotFound, Boolean ensureIsUpToDate)
+   at System.Web.Compilation.BuildManager.GetVPathBuildResultWithNoAssert(HttpContext context, VirtualPath virtualPath, Boolean noBuild, Boolean allowCrossApp, Boolean allowBuildInPrecompile, Boolean throwIfNotFound, Boolean ensureIsUpToDate)
+   at System.Web.Compilation.BuildManager.GetVirtualPathObjectFactory(VirtualPath virtualPath, HttpContext context, Boolean allowCrossApp, Boolean throwIfNotFound)
+   at System.Web.Compilation.BuildManager.GetObjectFactory(String virtualPath, Boolean throwIfNotFound)
+   at System.Web.Mvc.BuildManagerWrapper.System.Web.Mvc.IBuildManager.FileExists(String virtualPath)
+   at System.Web.Mvc.BuildManagerViewEngine.FileExists(ControllerContext controllerContext, String virtualPath)
+   at System.Web.Mvc.VirtualPathProviderViewEngine.&lt;&gt;c__DisplayClass4.&lt;GetPathFromGeneralName&gt;b__0(String path)
+   at System.Web.WebPages.DefaultDisplayMode.GetDisplayInfo(HttpContextBase httpContext, String virtualPath, Func`2 virtualPathExists)
+   at System.Web.WebPages.DisplayModeProvider.&lt;&gt;c__DisplayClassb.&lt;GetDisplayInfoForVirtualPath&gt;b__8(IDisplayMode mode)
+   at System.Linq.Enumerable.WhereSelectListIterator`2.MoveNext()
+   at System.Linq.Enumerable.FirstOrDefault[TSource](IEnumerable`1 source, Func`2 predicate)
+   at System.Web.WebPages.DisplayModeProvider.GetDisplayInfoForVirtualPath(String virtualPath, HttpContextBase httpContext, Func`2 virtualPathExists, IDisplayMode currentDisplayMode, Boolean requireConsistentDisplayMode)
+   at System.Web.Mvc.VirtualPathProviderViewEngine.GetPathFromGeneralName(ControllerContext controllerContext, List`1 locations, String name, String controllerName, String areaName, String cacheKey, String[]&amp; searchedLocations)
+   at System.Web.Mvc.VirtualPathProviderViewEngine.GetPath(ControllerContext controllerContext, String[] locations, String[] areaLocations, String locationsPropertyName, String name, String controllerName, String cacheKeyPrefix, Boolean useCache, String[]&amp; searchedLocations)
+   at System.Web.Mvc.VirtualPathProviderViewEngine.FindView(ControllerContext controllerContext, String viewName, String masterName, Boolean useCache)
+   at System.Web.Mvc.ViewEngineCollection.&lt;&gt;c__DisplayClassc.&lt;FindView&gt;b__b(IViewEngine e)
+   at System.Web.Mvc.ViewEngineCollection.Find(Func`2 lookup, Boolean trackSearchedPaths)
+   at System.Web.Mvc.ViewEngineCollection.FindView(ControllerContext controllerContext, String viewName, String masterName)
+   at System.Web.Mvc.ViewResult.FindView(ControllerContext context)
+   at System.Web.Mvc.ViewResultBase.ExecuteResult(ControllerContext context)
+   at System.Web.Mvc.ControllerActionInvoker.InvokeActionResult(ControllerContext controllerContext, ActionResult actionResult)
+   at System.Web.Mvc.ControllerActionInvoker.&lt;&gt;c__DisplayClass1a.&lt;InvokeActionResultWithFilters&gt;b__17()
+   at System.Web.Mvc.ControllerActionInvoker.InvokeActionResultFilter(IResultFilter filter, ResultExecutingContext preContext, Func`1 continuation)
+   at System.Web.Mvc.ControllerActionInvoker.&lt;&gt;c__DisplayClass1a.&lt;&gt;c__DisplayClass1c.&lt;InvokeActionResultWithFilters&gt;b__19()
+   at System.Web.Mvc.ControllerActionInvoker.InvokeActionResultWithFilters(ControllerContext controllerContext, IList`1 filters, ActionResult actionResult)
+   at System.Web.Mvc.Async.AsyncControllerActionInvoker.&lt;&gt;c__DisplayClass25.&lt;&gt;c__DisplayClass2a.&lt;BeginInvokeAction&gt;b__20()
+   at System.Web.Mvc.Async.AsyncControllerActionInvoker.&lt;&gt;c__DisplayClass25.&lt;BeginInvokeAction&gt;b__22(IAsyncResult asyncResult)</Exception>
+  </ErrorLog>
+  <ErrorLog>
+    <OccuredOn>29.12.2013 19:09:20</OccuredOn>
+    <Exception>Controller Name:User, Model Name:Login, Exception:System.Web.HttpCompileException (0x80004005): e:\WORK\Library\LibraryUI\Views\User\Login.cshtml(113): error CS1056: Unexpected character '\'
+   at System.Web.Compilation.AssemblyBuilder.Compile()
+   at System.Web.Compilation.BuildProvidersCompiler.PerformBuild()
+   at System.Web.Compilation.BuildManager.CompileWebFile(VirtualPath virtualPath)
+   at System.Web.Compilation.BuildManager.GetVPathBuildResultInternal(VirtualPath virtualPath, Boolean noBuild, Boolean allowCrossApp, Boolean allowBuildInPrecompile, Boolean throwIfNotFound, Boolean ensureIsUpToDate)
+   at System.Web.Compilation.BuildManager.GetVPathBuildResultWithNoAssert(HttpContext context, VirtualPath virtualPath, Boolean noBuild, Boolean allowCrossApp, Boolean allowBuildInPrecompile, Boolean throwIfNotFound, Boolean ensureIsUpToDate)
+   at System.Web.Compilation.BuildManager.GetVirtualPathObjectFactory(VirtualPath virtualPath, HttpContext context, Boolean allowCrossApp, Boolean throwIfNotFound)
+   at System.Web.Compilation.BuildManager.GetObjectFactory(String virtualPath, Boolean throwIfNotFound)
+   at System.Web.Mvc.BuildManagerWrapper.System.Web.Mvc.IBuildManager.FileExists(String virtualPath)
+   at System.Web.Mvc.BuildManagerViewEngine.FileExists(ControllerContext controllerContext, String virtualPath)
+   at System.Web.Mvc.VirtualPathProviderViewEngine.&lt;&gt;c__DisplayClass4.&lt;GetPathFromGeneralName&gt;b__0(String path)
+   at System.Web.WebPages.DefaultDisplayMode.GetDisplayInfo(HttpContextBase httpContext, String virtualPath, Func`2 virtualPathExists)
+   at System.Web.WebPages.DisplayModeProvider.&lt;&gt;c__DisplayClassb.&lt;GetDisplayInfoForVirtualPath&gt;b__8(IDisplayMode mode)
+   at System.Linq.Enumerable.WhereSelectListIterator`2.MoveNext()
+   at System.Linq.Enumerable.FirstOrDefault[TSource](IEnumerable`1 source, Func`2 predicate)
+   at System.Web.WebPages.DisplayModeProvider.GetDisplayInfoForVirtualPath(String virtualPath, HttpContextBase httpContext, Func`2 virtualPathExists, IDisplayMode currentDisplayMode, Boolean requireConsistentDisplayMode)
+   at System.Web.Mvc.VirtualPathProviderViewEngine.GetPathFromGeneralName(ControllerContext controllerContext, List`1 locations, String name, String controllerName, String areaName, String cacheKey, String[]&amp; searchedLocations)
+   at System.Web.Mvc.VirtualPathProviderViewEngine.GetPath(ControllerContext controllerContext, String[] locations, String[] areaLocations, String locationsPropertyName, String name, String controllerName, String cacheKeyPrefix, Boolean useCache, String[]&amp; searchedLocations)
+   at System.Web.Mvc.VirtualPathProviderViewEngine.FindView(ControllerContext controllerContext, String viewName, String masterName, Boolean useCache)
+   at System.Web.Mvc.ViewEngineCollection.&lt;&gt;c__DisplayClassc.&lt;FindView&gt;b__b(IViewEngine e)
+   at System.Web.Mvc.ViewEngineCollection.Find(Func`2 lookup, Boolean trackSearchedPaths)
+   at System.Web.Mvc.ViewEngineCollection.FindView(ControllerContext controllerContext, String viewName, String masterName)
+   at System.Web.Mvc.ViewResult.FindView(ControllerContext context)
+   at System.Web.Mvc.ViewResultBase.ExecuteResult(ControllerContext context)
+   at System.Web.Mvc.ControllerActionInvoker.InvokeActionResult(ControllerContext controllerContext, ActionResult actionResult)
+   at System.Web.Mvc.ControllerActionInvoker.&lt;&gt;c__DisplayClass1a.&lt;InvokeActionResultWithFilters&gt;b__17()
+   at System.Web.Mvc.ControllerActionInvoker.InvokeActionResultFilter(IResultFilter filter, ResultExecutingContext preContext, Func`1 continuation)
+   at System.Web.Mvc.ControllerActionInvoker.&lt;&gt;c__DisplayClass1a.&lt;&gt;c__DisplayClass1c.&lt;InvokeActionResultWithFilters&gt;b__19()
+   at System.Web.Mvc.ControllerActionInvoker.InvokeActionResultWithFilters(ControllerContext controllerContext, IList`1 filters, ActionResult actionResult)
+   at System.Web.Mvc.Async.AsyncControllerActionInvoker.&lt;&gt;c__DisplayClass25.&lt;&gt;c__DisplayClass2a.&lt;BeginInvokeAction&gt;b__20()
+   at System.Web.Mvc.Async.AsyncControllerActionInvoker.&lt;&gt;c__DisplayClass25.&lt;BeginInvokeAction&gt;b__22(IAsyncResult asyncResult)</Exception>
+  </ErrorLog>
+  <ErrorLog>
+    <OccuredOn>1.1.2014 22:49:11</OccuredOn>
+    <Exception>Object reference not set to an instance of an object.</Exception>
+  </ErrorLog>
+  <ErrorLog>
+    <OccuredOn>9.1.2014 17:27:55</OccuredOn>
+    <Exception>Object reference not set to an instance of an object.</Exception>
+  </ErrorLog>
+  <ErrorLog>
+    <OccuredOn>9.1.2014 17:41:22</OccuredOn>
+    <Exception>Object reference not set to an instance of an object.</Exception>
+  </ErrorLog>
+</ErrorLogs>

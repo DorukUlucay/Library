@@ -1,0 +1,23 @@
+﻿@*@{
+   Layout = null;
+}*@
+
+@model System.Web.Mvc.HandleErrorInfo
+
+
+
+<h2>Something bad happened :(</h2>
+<p>
+
+    @{ 
+    string s =string.Format("Controller Name:{0}, Model Name:{1}, Exception:{2}", @Model.ControllerName, @Model.ActionName, @Model.Exception);
+    LibraryUI.LogManager.WriteLog(s, DateTime.Now);
+  
+}
+
+
+    Controller: @Model.ControllerName
+    <br>
+    Action: @Model.ActionName
+    Exception: @Model.Exception
+</p>

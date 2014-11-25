@@ -1,0 +1,33 @@
+﻿@{
+    ViewBag.Title = "UpdateUser";
+}
+
+
+@model LibraryUI.Models.User
+
+<h2>Details for user</h2>
+
+<br />
+
+@using (Html.BeginForm("UpdateUser", "User", FormMethod.Post, new { @id = "ContentForm" }))
+{              
+    <table class="modalTable">
+        <tr>
+            <td>Username:</td>
+            <td>
+                @Html.TextBoxFor(p => p.Username, new { @class = "input-fit" })
+            </td>
+        </tr>
+        <tr>
+            <td>Is Active</td>
+            <td>
+                @Html.CheckBox("IsActive", Model.IsActive != null && (bool)Model.IsActive)
+            </td>
+        </tr>
+        @Html.HiddenFor(p => p.UserId)
+    </table>
+    <p>
+        <button class="btn btn-primary" type="submit">
+            Update</button>
+    </p>
+}

@@ -1,0 +1,5 @@
+﻿XmlLogger veya SqlLogger, uygulamadaki LogManager'dan gelen parametrelerle çalışmaktadır. 
+Ayarlar web.config'dedir.
+Eğer seçili logger hata verirse event logger'a log atılır.
+
+XmlLogger'ı kodladım ama SqlLogger'ı interface pass ederek yapmak istediğim için yetiştiremedim. 

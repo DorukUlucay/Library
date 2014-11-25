@@ -1,0 +1,20 @@
+﻿@{
+    ViewBag.Title = "AllBooks";
+}
+
+<h2>AllBooks</h2>
+
+
+@model LibraryUI.BookReportViewModel
+
+Books that are borrowed by the students:<br />
+ @foreach (System.Data.DataRow item in Model.BookReport.Tables[0].Rows)
+ {
+     <span>@item["Title"]</span><br />
+ }
+<br /><br />
+Books we currently have at library:<br />
+    @foreach (System.Data.DataRow item in Model.BookReport.Tables[1].Rows)
+    {
+        <span>@item["Title"]</span><br />
+    }

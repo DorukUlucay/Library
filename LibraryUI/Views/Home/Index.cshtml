@@ -1,0 +1,28 @@
+﻿@{
+    ViewBag.Title = "Index";
+}
+
+@model IEnumerable<LibraryUI.BookViewModel>
+
+<!DOCTYPE html>
+
+<div>
+
+    <span>Welcome to our Library. Here are some of our books</span>
+    <br />
+    <br />
+
+    @foreach (var item in Model)
+    {
+        string X = string.Format("{0} - {1}", @item.Title, @item.Author);
+        @X
+        <br />      
+    }
+
+    <br />
+    <span>Sign-up or Log-In to borrow a book.</span>
+
+
+</div>
+
+

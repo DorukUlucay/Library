@@ -1,0 +1,45 @@
+﻿@{
+    ViewBag.Title = "Requests";
+}
+
+@model List<LibraryUI.BookRequestViewModel>
+
+<!DOCTYPE html>
+
+<div>
+    <span>Waiting requests...</span>
+    <br />
+    <table border="1">
+        <thead>
+            <tr>
+                <th>Request Id</th>
+                <th>Book Title</th>
+                <th>Author Name</th>
+                <th>User</th>
+                <th>Requested On</th>
+                <th>Since Date</th>
+                <th>Until Date</th>
+                <th>Approve</th>
+                <th>Reject</th>
+            </tr>
+        </thead>
+        @foreach (var item in Model)
+        {
+            <tr>
+                <td>@item.RequestId</td>
+                <td>@item.Title</td>
+                <td>@item.AuthorName</td>
+                <td>@String.Format("{0} {1}", item.Name, item.Surname)</td>
+                <td>@item.RequestedOn</td>
+                <td>@item.Since</td>
+                <td>@item.Until</td>
+                <td>
+                    <a href='@Url.Action("ApproveReject", "Home", new { @ID = item.RequestId, @ActionType = "Approve" })'>Approve</a>
+                </td>
+                <td>
+                    <a href='@Url.Action("ApproveReject", "Home", new { @ID = item.RequestId, @ActionType = "Reject" })'>Reject</a>
+                </td>
+            </tr>
+        }
+    </table>
+</div>

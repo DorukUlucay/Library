@@ -1,0 +1,133 @@
+﻿@{
+    ViewBag.Title = "Login";
+}
+
+@model LibraryUI.Models.User
+
+<span id="openLoginForm">Login here</span>
+<span id="openRegisterForm">or Register here if you dont have an account</span>
+
+
+<div id="DivLogin" style="display: none;">
+    <h2 id="hLogin">Login</h2>
+    <div>
+        <div>
+            <input id="Username" />
+        </div>
+        <div>
+            <input id="pass" />
+            [password şimdilik çalışmıyor]
+        </div>
+
+        <button id="BtnLogin">
+            LogIn</button>
+    </div>
+</div>
+
+<div id="DivRegister" style="display: none;">
+    <div>
+        <h2>Register</h2>
+        @using (Html.BeginForm("Register", "User", FormMethod.Post, new { @id = "ContentForm" }))
+        {        
+            <table>
+                <tr>
+                    <td>Desired Username:</td>
+                    <td>
+                        <input id="desiredUsername" /></td>
+                    <td><span style="color: red;" id="usernameWarning"></span></td>
+                </tr>
+                <tr>
+                    <td>Password</td>
+                    <td>
+                        <input id="desiredPassword" /></td>
+                    <td><span style="color: red;" id="passwordWarning"></span></td>
+                </tr>
+                <tr>
+                    <td>Confirm Password</td>
+                    <td>
+                        <input id="desiredPasswordConfirm" /></td>
+                    <td><span style="color: red;" id="confirmWarning"></span></td>
+                </tr>
+                <tr>
+                    <td>E-Mail</td>
+                    <td>
+                        <input id="email" /></td>
+                    <td></td>
+                </tr>
+                <tr>
+                    <td>
+                        <button class="btn btn-primary" type="submit">
+                            Register</button></td>
+                    <td></td>
+                    <td></td>
+                </tr>
+            </table>
+        }
+    </div>
+</div>
+
+
+<script type="text/javascript">
+    $(document).ready(function () {
+        $("#openRegisterForm").click(function ()
+        { $("#DivRegister").fadeToggle(); });
+        $("#openLoginForm").click(function ()
+        { $("#DivLogin").fadeToggle(); });
+        $("#desiredUsername").blur(function () {
+            if ($(this).val().length == 0) {
+                $("#usernameWarning").html("you must choose a username");
+            }
+            else {
+                $("#usernameWarning").html("");
+            }
+        });
+        $("#desiredPassword").blur(function () {
+            if ($(this).val().length == 0) {
+                $("#passwordWarning").html("password fields can not be empty");
+            }
+            else {
+                $("#passwordWarning").html("");
+            }
+        });
+        $("#desiredPasswordConfirm").blur(function () {
+            if ($(this).val() != $("#desiredPassword").val()) {
+                $("#confirmWarning").html("confirm password should be same with password");
+            }
+            else {
+                $("#confirmWarning").html("");
+            }
+        });
+
+        //TODO: email validation
+        $("#email").blur(function () {
+            var inputVal = $(this).val();
+            var emailReg = new RegExp(/^([\w-\.]+@@([\w-]+\.)+[\w-]{2,4})?$/);
+            if (!emailReg.test(inputVal)) {
+                alert(inputVal);
+            }
+        });
+
+        $("#BtnLogin").click(function () {
+            $.ajax({
+                url: './DoLogin',
+                type: 'POST',
+                data: JSON.stringify({
+                    Username: $("#Username").val()
+                }),
+                contentType: 'application/json; charset=utf-8',
+                success: function (response) {
+                    if (response.Ok == false) {
+                        alert("You're either not registered or provided wrong login info. Please try again or register.");
+                    }
+                    else {
+                        alert('Hoşgeldin, ' + response.Username);
+                        window.location.reload();
+                    }
+                },
+                error: function (response) {
+                    alert("error:" + response.ErrorMessage);
+                }
+            });
+        });
+    });
+</script>

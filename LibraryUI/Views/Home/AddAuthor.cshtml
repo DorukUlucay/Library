@@ -1,0 +1,68 @@
+﻿@{
+    ViewBag.Title = "AddAuthor";
+}
+
+@model IEnumerable<LibraryUI.Models.Author>
+
+<h2>Here You Can Add Authors</h2>
+
+<br />
+<br />
+
+<input type="text" id="Name" />
+
+<button id="btnSave">Add</button>
+
+
+<hr />
+<br />
+
+<span>Authors we have books of:</span>
+<br />
+<table class="modalTable">
+    @foreach (var item in Model)
+    {
+        <tr>
+            <td>@item.Name</td>
+        </tr>    
+    }
+
+</table>
+
+<script>
+    var Author = {
+        init: function () {
+            $('#btnSave').click(function () {
+                alert('X');
+                Author.AddAuthor();
+            });
+        },
+        AddAuthor: function () {
+            var serialized = JSON.stringify({ Name: $('#Name').val() });
+            $.ajax({
+                url: './Home/AddAuthor',
+                data: serialized,
+                type: 'POST',
+                contentType: 'application/json',
+                success: function (response) {
+                    if (response && response.Ok) {
+                        alert("Changes are saved.");
+                        document.location = document.location;
+                    }
+                    else {
+                        alert("Error occured 1. " + response.ErrorMessage);
+                    }
+                },
+                error: function (err) {
+                    alert("Error occured 2. " + err.Message);
+                }
+            }
+            );
+
+        },
+        _eof: null,
+    };
+    $(document).ready(function () { Author.init(); });
+</script>
+
+

@@ -1,0 +1,42 @@
+﻿@{
+    ViewBag.Title = "UserList";
+}
+
+@model IEnumerable<LibraryUI.Models.User>
+
+<div>
+
+    <span style="font-weight: 900;">In this page you can see the users. Click any of them to administer their settings</span>
+    <br />
+    <br />
+
+    <table>
+        <thead>
+            <tr>
+                <th>ID</th>
+                <th>Username</th>
+                <th>Name</th>
+                <th>Surname</th>
+                <th>IsAdmin</th>
+                <th>IsActive</th>
+                <th>EMail</th>
+            </tr>
+        </thead>
+        @foreach (var item in Model)
+        {
+            <tr>
+                <td>
+                    <a href='@Url.Action("UpdateUser", "User" ,new { @ID = item.UserId })'>@item.UserId</a>
+                </td>
+                <td>@item.Username</td>
+                <td>@item.Name</td>
+                <td>@item.Surname</td>
+                <td>@item.IsAdmin</td>
+                <td>@item.IsActive</td>
+                <td>@item.Email</td>
+            </tr>
+        }
+    </table>
+
+
+</div>

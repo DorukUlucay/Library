@@ -1,0 +1,68 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Schema Namespace="LIBRARYModel" Alias="Self" p1:UseStrongSpatialTypes="false" xmlns:annotation="http://schemas.microsoft.com/ado/2009/02/edm/annotation" xmlns:p1="http://schemas.microsoft.com/ado/2009/02/edm/annotation" xmlns="http://schemas.microsoft.com/ado/2009/11/edm">
+  <EntityContainer Name="LIBRARYEntities1" p1:LazyLoadingEnabled="true">
+    <EntitySet Name="Author" EntityType="LIBRARYModel.Author" />
+    <EntitySet Name="Book" EntityType="LIBRARYModel.Book" />
+    <EntitySet Name="BookRequest" EntityType="LIBRARYModel.BookRequest" />
+    <EntitySet Name="ErrorLog" EntityType="LIBRARYModel.ErrorLog" />
+    <EntitySet Name="User" EntityType="LIBRARYModel.User" />
+  </EntityContainer>
+  <EntityType Name="Author">
+    <Key>
+      <PropertyRef Name="AuthorId" />
+    </Key>
+    <Property Name="AuthorId" Type="Int32" Nullable="false" p1:StoreGeneratedPattern="Identity" />
+    <Property Name="Name" Type="String" MaxLength="50" Unicode="true" FixedLength="false" />
+  </EntityType>
+  <EntityType Name="Book">
+    <Key>
+      <PropertyRef Name="BookId" />
+    </Key>
+    <Property Name="BookId" Type="Int32" Nullable="false" p1:StoreGeneratedPattern="Identity" />
+    <Property Name="Title" Type="String" MaxLength="250" Unicode="true" FixedLength="false" />
+    <Property Name="AuthorId" Type="Int32" />
+    <Property Name="ReleaseDate" Type="DateTime" Precision="0" />
+    <Property Name="CreatedOn" Type="DateTime" Precision="3" />
+    <Property Name="IsActive" Type="Boolean" />
+  </EntityType>
+  <EntityType Name="BookRequest">
+    <Key>
+      <PropertyRef Name="BookRequestId" />
+    </Key>
+    <Property Name="BookRequestId" Type="Int32" Nullable="false" p1:StoreGeneratedPattern="Identity" />
+    <Property Name="BookId" Type="Int32" />
+    <Property Name="UserId" Type="Int32" />
+    <Property Name="Since" Type="DateTime" Precision="0" />
+    <Property Name="Until" Type="DateTime" Precision="0" />
+    <Property Name="TakenOn" Type="DateTime" Precision="0" />
+    <Property Name="ReturnedOn" Type="DateTime" Precision="0" />
+    <Property Name="RequestedOn" Type="DateTime" Precision="0" />
+    <Property Name="ApprovedOn" Type="DateTime" Precision="0" />
+    <Property Name="ApprovedBy" Type="Int32" />
+    <Property Type="DateTime" Name="RejectedOn" Precision="3" />
+    <Property Type="Int32" Name="RejectedBy" />
+  </EntityType>
+  <EntityType Name="ErrorLog">
+    <Key>
+      <PropertyRef Name="ErrorLogId" />
+    </Key>
+    <Property Name="ErrorLogId" Type="Int32" Nullable="false" p1:StoreGeneratedPattern="Identity" />
+    <Property Name="Exception" Type="String" MaxLength="Max" Unicode="true" FixedLength="false" />
+    <Property Name="InnerException" Type="String" MaxLength="Max" Unicode="true" FixedLength="false" />
+    <Property Name="OccuredOn" Type="DateTime" Precision="3" />
+    <Property Name="UserId" Type="Int32" />
+  </EntityType>
+  <EntityType Name="User">
+    <Key>
+      <PropertyRef Name="UserId" />
+    </Key>
+    <Property Name="UserId" Type="Int32" Nullable="false" p1:StoreGeneratedPattern="Identity" />
+    <Property Name="Username" Type="String" MaxLength="50" Unicode="false" FixedLength="false" />
+    <Property Name="Name" Type="String" MaxLength="50" Unicode="true" FixedLength="false" />
+    <Property Name="Surname" Type="String" MaxLength="50" Unicode="true" FixedLength="false" />
+    <Property Name="CreatedOn" Type="DateTime" Precision="3" />
+    <Property Name="IsActive" Type="Boolean" />
+    <Property Name="Email" Type="String" MaxLength="100" Unicode="true" FixedLength="false" />
+    <Property Name="IsAdmin" Type="Boolean" />
+  </EntityType>
+</Schema>

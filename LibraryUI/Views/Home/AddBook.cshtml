@@ -1,0 +1,33 @@
+﻿@*@{
+    ViewBag.Title = "";
+}*@
+
+@model IEnumerable<LibraryUI.Models.Author>
+
+<h2>Here You Can Add Books</h2>
+
+<br />
+<br />
+
+@using (Html.BeginForm("AddBook", "Home", FormMethod.Post, new { @id = "ContentForm" }))
+{              
+    <table class="modalTable">
+        <tr>
+            <td style="width: 80px;">Title</td>
+            <td>
+                @Html.TextBox("Title",null)
+            </td>
+        </tr>
+        <tr>
+            <td>Yazar</td>
+            <td>
+                @Html.DropDownList("AuthorId", new SelectList(Model, "AuthorId", "Name"))
+            </td>
+        </tr>
+
+    </table>
+    <p>
+        <button class="btn btn-primary" type="submit">
+            Add</button>
+    </p>
+}

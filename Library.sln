@@ -1,0 +1,32 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2012
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LibraryUI", "LibraryUI\LibraryUI.csproj", "{2C24F0EB-FE1A-4AD4-A5F5-8A294148CD66}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Logger", "Logger\Logger.csproj", "{56240AF6-7188-4540-A091-719268E3A610}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DataLayer", "DataLayer\DataLayer.csproj", "{F5B0BDD9-3828-44CC-A931-2AC18F97663A}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{2C24F0EB-FE1A-4AD4-A5F5-8A294148CD66}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2C24F0EB-FE1A-4AD4-A5F5-8A294148CD66}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2C24F0EB-FE1A-4AD4-A5F5-8A294148CD66}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2C24F0EB-FE1A-4AD4-A5F5-8A294148CD66}.Release|Any CPU.Build.0 = Release|Any CPU
+		{56240AF6-7188-4540-A091-719268E3A610}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{56240AF6-7188-4540-A091-719268E3A610}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{56240AF6-7188-4540-A091-719268E3A610}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{56240AF6-7188-4540-A091-719268E3A610}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F5B0BDD9-3828-44CC-A931-2AC18F97663A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F5B0BDD9-3828-44CC-A931-2AC18F97663A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F5B0BDD9-3828-44CC-A931-2AC18F97663A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F5B0BDD9-3828-44CC-A931-2AC18F97663A}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

@@ -1,0 +1,45 @@
+﻿@{
+    ViewBag.Title = "RequestBookComplete";
+}
+<h2>Complete Your Request</h2>
+@model LibraryUI.Models.BookRequest
+
+
+@using (Html.BeginForm("RequestBookComplete", "Home", FormMethod.Post, new { @ID = "ContentForm" }))
+{             
+    <p>
+        @{
+    LibraryUI.BookViewModel BR = null;
+
+    using (LibraryUI.Models.LIBRARYEntities db = new LibraryUI.Models.LIBRARYEntities())
+    {
+        BR = (from B in db.Book
+              join A in db.Author on B.AuthorId equals A.AuthorId
+              where B.BookId == @Model.BookId
+              select new LibraryUI.BookViewModel
+              {
+                  Author = A.Name,
+                  Title = B.Title,
+                  BookId = B.BookId
+              }).FirstOrDefault();
+    }
+        }
+        @string.Format("You want to borrow {0} by {1}", BR.Title, BR.Author)
+    </p>
+
+    <p>
+        Since:
+        <input type="date" required="required" name="Since">
+    </p>
+    <p>
+        Until:
+        <input type="date" required="required" name="Until">
+    </p>
+    @Html.HiddenFor(p => p.BookId)
+    <p>
+        <button class="btn btn-primary" type="submit">
+            Complete Request</button>
+    </p>
+}
+
+

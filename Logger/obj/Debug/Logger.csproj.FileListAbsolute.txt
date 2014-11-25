@@ -1,0 +1,10 @@
+E:\WORK\Library\Logger\bin\Debug\Logger.dll
+E:\WORK\Library\Logger\bin\Debug\Logger.pdb
+E:\WORK\Library\Logger\obj\Debug\Logger.dll
+E:\WORK\Library\Logger\obj\Debug\Logger.pdb
+E:\WORK\Library\Logger\obj\Debug\Logger.csprojResolveAssemblyReference.cache
+D:\DORUK\DORUK\WORK\Library\Logger\bin\Debug\Logger.dll
+D:\DORUK\DORUK\WORK\Library\Logger\bin\Debug\Logger.pdb
+D:\DORUK\DORUK\WORK\Library\Logger\obj\Debug\Logger.csprojResolveAssemblyReference.cache
+D:\DORUK\DORUK\WORK\Library\Logger\obj\Debug\Logger.dll
+D:\DORUK\DORUK\WORK\Library\Logger\obj\Debug\Logger.pdb

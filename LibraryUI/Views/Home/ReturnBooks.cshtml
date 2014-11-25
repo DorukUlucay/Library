@@ -1,0 +1,42 @@
+﻿@{
+    ViewBag.Title = "ReturnBooks";
+}
+
+<h2>ReturnBooks</h2>
+
+@model List<LibraryUI.BookRequestViewModel>
+
+<!DOCTYPE html>
+
+<div>
+    <span>Books you have now</span>
+    <br />
+    <table border="1">
+        <thead>
+            <tr>
+                <th>Request Id</th>
+                <th>Book Title</th>
+                <th>Author Name</th>
+                <th>User</th>
+                <th>Requested On</th>
+                <th>Since Date</th>
+                <th>Until Date</th>
+            </tr>
+        </thead>
+        @foreach (var item in Model)
+        {
+            <tr>
+                <td>@item.RequestId</td>
+                <td>@item.Title</td>
+                <td>@item.AuthorName</td>
+                <td>@String.Format("{0} {1}", item.Name, item.Surname)</td>
+                <td>@item.RequestedOn</td>
+                <td>@item.Since</td>
+                <td>@item.Until</td>
+                <td>
+                    <a href='@Url.Action("ReturnBook", "Home", new { @ID = item.RequestId})'>Return Book</a>
+                </td>
+            </tr>
+        }
+    </table>
+</div>
